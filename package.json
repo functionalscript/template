@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test.js"
+    "test": "node --trace-uncaught ./test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/functionalscript/template/issues"
   },
-  "homepage": "https://github.com/functionalscript/template#readme"
+  "homepage": "https://github.com/functionalscript/template#readme",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
 }
