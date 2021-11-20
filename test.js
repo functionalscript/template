@@ -1,3 +1,3 @@
-const i = require('.')
+const { f } = require('.')
 
-if (i !== 'Hello world!') { throw 'no hello' }
+if (f() !== 'Hello world!') { throw 'no hello' }
