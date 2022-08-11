@@ -2,7 +2,7 @@
   "name": "template",
   "version": "0.0.0",
   "description": "",
-  "main": "main.f.cjs",
+  "main": "module.f.cjs",
   "scripts": {
     "test": "tsc & node --trace-uncaught ./test.f.cjs"
   },
