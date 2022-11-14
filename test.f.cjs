@@ -1,3 +1,3 @@
-const { f } = require('./main.f.cjs')
+const { f } = require('./module.f.cjs')
 
 if (f() !== 'Hello world!') { throw 'no hello' }
